@@ -1,0 +1,193 @@
+html{
+	margin:0;
+	padding:0;
+}
+
+
+input[type="text"] {
+  position:relative;
+}
+
+
+
+header{
+	background-color:#1f262c;
+	color: white;
+	font: Fira Master;
+}
+
+.info{
+	text-align: center;
+	height: 10rem;
+	padding:1rem;
+	margin:0;
+	background-color:#c8c2b2;
+	width:auto;
+	color: #1f262c;
+	}
+input[type=text]{
+	font-size:.9rem;
+}
+#Speed{
+	margin-top:1.1rem;
+}
+.Options{
+	text-align: center;
+	padding:0;
+	color:#1f262c;	
+	height:8rem;
+	width: 30rem;
+
+}
+
+ body {
+           font-family: sans-serif;
+           font-weight: 300;
+           overflow-x: hidden;
+  			margin:0;
+  			padding:0;
+       }
+button{
+	margin-top:0;
+	width:5rem;
+  	height:2.8rem;
+	}
+button:active{
+	background-color:#1f262c;
+}
+
+input[type=radio] {
+    display:none;
+	margin:0;
+    float:left;
+
+}
+ 
+/*
+  Change the look'n'feel of labels (which are adjacent to radiobuttons).
+  Add some margin, padding to label
+*/
+input[type=radio] + label {
+    display:inline-block;
+  	width:4.5rem;
+  	height:2.2rem;
+    padding:.3rem .3rem ;
+    background-color:#af543e;
+    border-color: #ddd;
+    border-width: 1rem;
+    margin-right: -.35rem;
+    position:relative;
+    top:-.55rem;
+    
+}
+
+/*
+ Change background color for label next to checked radio button
+ to make it look like highlighted button
+*/
+input[type=radio]:checked + label {
+   background-image: none;
+    background-color:#c8c2b2 ;
+    color: #FFFFFF;
+}
+.topMenu {
+	background-color: #999999;
+}
+
+#topMenuBorder {
+	width: 100%;
+	height: 20%;	
+	margin: 0;
+	padding: 0;
+	background-color: #1f262c;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+#caracterIcon {
+	width: 5%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+	vertical-align:middle;
+}
+
+#caracterIcon img {
+	max-width: 150%;
+	max-height: 300%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+#userName {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+#scoreWrapper{
+	float:right;
+	margin-right: 2%;
+}
+
+#score {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#scoreIcon {
+	width:auto;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#scoreIcon img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+#scoreIcon i {
+	color: #FFFFFF;
+}
+
+
+.Options
+{
+	width: 100%;
+	margin-left: 0px;
+	height: 4rem;	
+	border-bottom: 2px solid #ccc;
+}
+
+.Options .item
+{
+	margin: 0px;
+	width: 25%;
+	display: inline-block;
+	height: 4rem;
+	line-height: 4rem;
+	float: left;
+	
+}
+.Options .button
+{
+	background-color: #567ABA;
+	color: #FFF;
+}
+.active
+{
+	background-color: #56BA56;
+	color: #FFF;
+}
